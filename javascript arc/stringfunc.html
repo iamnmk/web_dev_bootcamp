@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String functions in JavaScript</title>
+    <script>
+        var str= "this is a string";
+        console.log(str);
+        var len = str.length;
+        len1 = str.length;
+        console.log(len);
+        console.log(len1);
+        //First occurence is found and shown
+        var pos = str.indexOf("is");
+        console.log(pos);
+       //Last occurence is found and shown 
+        var pos1 = str.lastIndexOf("is");
+        console.log(pos1);
+
+        //Substring from a string
+        //last character is not printed
+        var substr = str.substring(1,6); //second argument is the number of characters needed after the first arguement
+        console.log(substr);
+        // Slice
+        var substr1 = str.slice(1,6); //second arguement is the last character that is needed before the string is cut
+        console.log(substr1);
+
+        //replacing a substring with another string
+        var replace = str.replace('string', 'Numaan');
+        console.log(replace); //the original string remains the same, only a new string is created with the changes required
+
+        // changing the string to uppercase/lowercase
+        var upper = str.toUpperCase();
+        var lower = str.toLowerCase();
+        console.log(upper);
+        console.log(lower); // can do directly too
+
+        //Concatenation i.e to add a substring to the old string
+        var newString = str.concat(" Numaan");
+        console.log(newString);
+
+        //to return specific character from a string
+        var newchar = str.charAt(2);
+        console.log(newchar);
+
+
+    
+
+
+
+
+    </script>
+</head>
+<body>
+    <h1>
+        STRING FUNCTIONS
+    </h1>
+     
+    
+</body>
+</html>

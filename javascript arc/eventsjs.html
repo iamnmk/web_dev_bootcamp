@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events and Listening to Events in JavaScript</title>
+</head>
+<style> 
+#btn {
+padding: 20px;
+border-radius: 10px;
+color: aliceblue;
+background-color: black;
+cursor: pointer;
+border: 10px;
+border-color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+</style>
+<body> 
+    <p id = "para">Lets Learn About Events YEAH?
+
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quaerat iure exercitationem ad molestias sapiente aut beatae cum, numquam velit autem, deserunt libero accusantium, ut soluta reiciendis et. Dolorem, asperiores! adlkdklnac Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi culpa, atque impedit, facilis sapiente corrupti facere cum minus eligendi voluptate labore earum, reprehenderit at nesciunt repellat? Laudantium inventore, dolores est omnis et minus, tenetur consectetur quod tempora cupiditate nostrum ab magni recusandae numquam asperiores, sunt harum expedita facere voluptatem dolorem.</p>
+        
+    <button id = "btn" onclick = "toggleHide()"> SHOW/HIDE </button>
+
+    <script>
+        function toggleHide() {
+        let btn = document.getElementbyID('btn');
+	    let para =document.getElementbyID('para');
+
+        if( para.style.display != 'none')
+        {
+        para.style.display = 'none';
+        }
+        else {
+            para.style.display='block';
+            }
+    }
+    
+</script>   
+
+    
+</body>
+</html>

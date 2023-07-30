@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOOPS IN JAVASCRIPT</title>
+</head>
+<body>
+   <div> THIS IS A BODY. LETS START WITH LOOPS YEAH? </div>
+    <script>
+
+        // this is "for" loop
+        let i=0;
+        for (i=0;i<4;i++){
+            console.log(i);
+        }
+
+        //trying something
+
+        let people = ["Numaan", "AGK", "Sharaa", "Nauman", "Aareb", "Aman", "Atif"];
+        let j=0;
+        for (j=0;j<people.length;j++){
+            console.log("The name is " + people[j]);
+        }
+
+        
+        //using foreach function
+        people.forEach(function f(element){
+            console.log("Hello Friend, " + element)
+        });
+
+        
+        // for of loop
+        for(element of people){
+            console.log(element);
+        }
+
+       
+        //Use this loop to iterate an object
+        let student = {
+            name: "Numaan",
+            salary: 0,
+            Job : "Entrepreneur"
+
+        };
+        
+        for (key in student){
+            console.log (`The ${key} of student is ${student[key]}` );
+        };
+
+
+        //While loop in js
+        let l=0;
+        while (l<4) {
+            console.log(people[l]);
+            l++;
+        };
+
+
+        //do while loop in js
+        let w= 3;
+        do {
+            console.log(people[w]);
+            w++;
+        } while (w<7)
+
+    </script>
+    
+</body>
+</html>

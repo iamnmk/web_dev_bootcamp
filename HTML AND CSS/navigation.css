@@ -1,0 +1,75 @@
+.navbar li {
+    list-style: none;
+    padding: 20px 20px;
+    margin: auto;
+    float: left;
+    }
+    .navbar{
+        background-color: black;
+        border-radius: 14px;
+    }
+   
+    .navbar ul {
+        overflow: hidden;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: seashell;
+    }
+    .navbar li a:hover{
+        cursor: pointer;
+        color: rgb(102, 13, 32);
+    }
+
+    .search {
+        float: right;
+        padding-top: 20px;
+        padding-right: 90px;
+        width: auto;
+    }
+
+    .navbar input{
+        border: 2px black;
+        border-radius: 4em;
+        padding: 5px;
+        padding-left: 40px;
+    }
+    .button{
+
+        float: left;
+        margin: 18px;
+        border: 2px white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .button:hover {
+        background-color:black;
+        color:white;
+        cursor: help;
+    }
+
+    .sample {
+        background-color: black;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(3, 17, 17);
+        text-align: left;
+        font-size: large;
+        border: 2px black;
+        margin: 70px;
+        padding: 20px;
+        background-image: url(https://st4.depositphotos.com/1719830/i/600/depositphotos_311176302-stock-photo-dumbbell-exercise-in-fitness-gym.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px; ;
+        width: 400px;
+        background: size 400px; 
+        border:50px indigo;
+        border-radius: 50px;
+    }
+    .sample a{
+        text-decoration: none;
+        text-decoration-thickness: 3px;
+        background-color: black;
+        color: white;
+    }
